@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>PcStore.DAL</AssemblyTitle>
+    <Product>PcStore.DAL</Product>
+    <Copyright>Copyright ©  2025</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="8.0.16" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.5" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="8.0.16" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Net.Http.Headers" Version="8.0.16" />
+    <PackageReference Include="System.Collections.Immutable" Version="8.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.1" />
+    <PackageReference Include="System.Reflection.Metadata" Version="8.0.1" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+</Project>
